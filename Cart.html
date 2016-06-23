@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+<title>Modal Button and Cart</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/ae699f5e09.js"></script>
+<link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<div class="containerCart">
+  <div class="row Title">
+   
+  </div>
+
+  <div class="row Descrip">
+    <div class="col-lg-4 descripBox">
+     
+
+    </div>
+
+  </div>
+
+  <div class="row Buttons">
+
+    <div class="col-lg-2 ModalButton">
+
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addToCart">Add to Cart</button>
+
+        <div id="addToCart" class="modal fade" role="dialog">
+      
+          <div class="modal-dialog">
+
+            <div class="modal-content">
+      
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Item added to Cart.</h4>
+              </div>
+
+              <div class="modal-body">
+              <p>Thank you for your purchase!</p>
+              </div>
+       
+            </div>
+
+          </div>
+    
+        </div>
+    </div>
+
+    <div class="col-lg-6 SocialMedia">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      <i class="fa fa-twitter-square" aria-hidden="true"></i>
+      <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+    </div>
+ </div>
+
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
